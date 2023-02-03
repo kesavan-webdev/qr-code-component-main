@@ -6,11 +6,12 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
 }
 /* .card-container style */
 .card-container{
     background-color: hsl(0, 0%, 100%);
-    
     width: 300px;
     padding: 10px;
     margin: 100px auto;
@@ -34,13 +35,15 @@ body{
     flex-direction: column;
     gap: 1rem;
     text-align: center;
-    padding: 8px;
     margin: 1rem 0rem;
-
+    
 }
 
 h1{
-    margin: 10px auto;
+    margin: 5px auto;
     font-size: 1.5rem;
 
+}
+p{
+    color: hsl(220, 15%, 55%);
 }
